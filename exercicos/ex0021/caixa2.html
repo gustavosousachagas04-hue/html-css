@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dgrouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(154, 154, 182);
+        }
+        header{
+            background-color: rgb(128, 155, 101);
+            padding: 10px;
+            margin: 20px;
+        }
+        main{
+         background-color: rgb(155, 119, 119);   
+         padding: 20px;
+         margin: 10px;
+         border-radius: 20px;
+         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.678);
+        }
+        footer{
+            background-color: rgb(1, 1, 2);
+            color: cyan;
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+        }
+        article{
+            background-color: rgba(108, 47, 134, 0.445);
+        }
+        article > aside{
+            background-color: rgb(90, 72, 25);
+        }
+        nav{
+            background-color: rgb(131, 73, 85);
+            padding: 10px;
+            box-shadow: 2px 2px 3px black;
+        }
+        footer > p{
+          margin: 0px;  
+        }
+        div#bola{
+        height: 100px;
+        width: 100px; 
+        background-color: aqua;
+        margin: 20px;
+        padding: auto;
+        border-radius: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">Link</a> 
+        <a href="#">Link</a> 
+        <a href="#">Link</a>  
+        </nav>
+    </head>
+    <main>
+        <section id="not">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus quae ratione doloremque sint, quod delectus sed officia quibusdam repellendus nesciunt maxime placeat adipisci aperiam hic eaque dolores neque blanditiis explicabo.</p>
+        </section>
+        <section id="yes">
+            <article>
+                 <aside>
+                    <p>arthur</p>
+                 </aside>
+            </article>
+            <article>
+               <h2>sla papai</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptas a dignissimos molestiae cupiditate quia dolorum eligendi culpa aliquid eveniet, possimus enim optio necessitatibus porro temporibus fugiat dolore similique laborum.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
