@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+               width: 500px;
+            border-collapse: collapse;
+            
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+      col.cnome{
+        background-color: aqua;
+      }
+      col.cgrupo{
+        background-color: red;
+      }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+          
+          <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <th>Ana Maria</th>
+                <th>F</th>
+                <th>15</th>
+                <th>Gamer</th>
+            </tr>
+            
+            <tr>
+                <th>Ana Maria</th>
+                <th>F</th>
+                <th>15</th>
+                <th>Gamer</th>
+            </tr>
+            
+            <tr>
+                <th>Ana Maria</th>
+                <th>F</th>
+                <th>15</th>
+                <th>Gamer</th>
+            </tr>
+             
+            <tr>
+                <th>Ana Maria</th>
+                <th>F</th>
+                <th>15</th>
+                <th>Gamer</th>
+            </tr>
+    </table>
+</body>
+</html>
